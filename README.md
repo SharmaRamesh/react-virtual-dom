@@ -25,4 +25,17 @@ It is a very minimalistic example, which makes it elegant, IMHO. It consists of 
 - index.html
 - script.js
 
+## How to test it
+
+Simply download the project and open index.html in your browser. You should see two sections/divs
+
+1. Titled <b>Hello JS</b> this is rendered by manipulating the Real DOM directly. In essence each time this div is rendered, it is rendered in its entirety. It contains two child elements - an input box and a date field that shows the current date and time which gets updated every 1 second.
+2. Titled <b> Hello React</b> this is rendered by React. It also has two child elements as above.
+
+The page is set up to re-render every 1 second, thus you will see the time updating every second. However, if you attempt to enter something in the input field in the first div, it is impossible to do so, because the entire div is updated every second, thus clearing out your input.
+
+On the other hand, the second div is updated by React, and it only updates the date/time field every second, since only the state of that field changes every second. This leaves the input field alone and thus you are able to input text into it!
+
+## Attributions
+
 Some of the concepts above are explained in detail at [Virtual DOM in ReactJS](https://hackernoon.com/virtual-dom-in-reactjs-43a3fdb1d130)
