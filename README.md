@@ -1,6 +1,6 @@
 ## Introduction
 
-A simple project to illustrate the advantage of React.js's use of virtual DOMs. Virtual DOMs are not a new concept. However, their use in React.js is quite effective.
+A simple project to illustrate the advantage of ReactJS's use of virtual DOMs. Virtual DOMs are not a new concept. However, their use in ReactJS is quite effective.
 
 Unlike other rendering libraries or frameworks, React.js uses the notion of a virtual DOM that represents the real HTML DOM (which in turn represents the rendered UI) on a web page.
 
@@ -21,3 +21,5 @@ It is a very minimalistic example, which makes it elegant, IMHO. It consists of 
 
 - index.html
 - script.js
+
+Some of the concepts above are explained in detail at [Virtual DOM in ReactJS](https://hackernoon.com/virtual-dom-in-reactjs-43a3fdb1d130)
