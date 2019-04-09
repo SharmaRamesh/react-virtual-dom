@@ -10,8 +10,11 @@ Any time the objects created using React have a state change, their correspondin
 
 1. Re-render all the children if parent state has changed
 2. Use a breadth first search
-3. [Reconciliation](https://reactjs.org/docs/reconciliation.html) - this is the process to determine which parts of the Real DOM need to be updated.
-4. Batch update
+
+## Updating the Real DOM
+
+1. [Reconciliation](https://reactjs.org/docs/reconciliation.html) - this is the process to determine which parts of the Real DOM need to be updated.
+2. Batch update
 
 ## Whats in the sample
 
